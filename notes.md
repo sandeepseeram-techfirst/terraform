@@ -1,0 +1,1 @@
+terraform apply -var bucket_suffix=hello
