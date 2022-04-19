@@ -14,3 +14,10 @@ output "work_queue" {
 output "work_queue_dead_letter_queue" {
     value = module.work_queue.dead_letter_queue
 }
+
+
+/*
+Initializing modules...
+Downloading github.com/kevholditch/sqs-with-backoff for work_queue...
+- work_queue in .terraform/modules/work_queue
+*/
