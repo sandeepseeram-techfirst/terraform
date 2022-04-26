@@ -1,0 +1,1 @@
+terraform import <resource_type>.<resource_identifier> <value>
