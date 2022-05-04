@@ -9,3 +9,7 @@ terraform workspace new dev
 * dev
 
 terraform workspace select dev 
+
+terraform destroy
+
+terraform workspace delete dev
