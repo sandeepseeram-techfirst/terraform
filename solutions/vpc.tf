@@ -1,6 +1,7 @@
-resource "awsvpc" "main" {
-  cidrblock = "10.0.0.0/16"
-  tags = {
-    Name = "Project VPC"
-  }
+provider "aws" {
+  region = var.region
+}
+
+resource "aws_vpc" "vpc" {
+  cidr_block = var.cidr
 }
