@@ -8,5 +8,5 @@ resource "aws_sqs_queue" "queue" {
 }
 
 resource "aws_s3_bucket" "bucket" {
-  bucket = "my-awesome-bucket-${terraform.workspace}"
+  bucket = "my-awesome-bucket1-${terraform.workspace}"
 }
